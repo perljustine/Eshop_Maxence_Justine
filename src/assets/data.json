@@ -131,66 +131,90 @@
   {
     "name": "Warheads super (sour double drop)",
     "quantity": 17,
-    "price": 2.5
+    "price": 2.5,
+    "img": "warheads-super-sour-double-drop.webp"
   },
   {
     "name": "Warheads super (sour gel)",
     "quantity": 25,
-    "price": 3.5
+    "price": 3.5,
+    "img": "warheads-super-sour-gel.webp"
   },
   {
     "name": "Warheads (Lil Worms)",
     "quantity": 12,
-    "price": 3
+    "price": 3,
+    "img": "warheards-lil-worms.webp"
+
   },
   {
     "name": "wonka nerds candy (grape strawberry)",
     "quantity": 23,
-    "price": 3.5
+    "price": 3.5,
+    "img": "wonka-nerds-candy-grape-strawberry-box.webp"
+
   },
   {
     "name": "wonka nerds candy (rainbow)",
     "quantity": 23,
-    "price": 3.5
+    "price": 3.5,
+    "img": "wonka-nerds-candy-rainbow-box.webp"
+
   },
   {
     "name": "American Bakery (Peanuts Cones)",
     "quantity": 34,
-    "price": 4.5
+    "price": 4.5,
+    "img": "american-bakery-cones-peanut.webp"
+
   },
   {
     "name": "Dr.Fire dip (Dick 2 Lick)",
     "quantity": 34,
-    "price": 4.5
+    "price": 4.5,
+    "img": "dr-fire-dip-2-lick.webp"
+
   },
   {
     "name": "Dr.Sour (Lemonade)",
     "quantity": 21,
-    "price": 2.5
+    "price": 2.5,
+    "img": "dr-sour-dip-n-shake.webp"
+
   },
   {
   "name": "Kool-Aid (Mandarina-Tabgerine)",
   "quantity": 21,
-  "price": 2.5
+  "price": 2.5,
+    "img": "kool-aid-mandarina-tangerine-6-units.webp"
+
 },
   {
   "name": "MilkyWay (cookie dog)",
   "quantity": 24,
-  "price": 1.5
+  "price": 1.5,
+    "img": "milky-way-cookie-dough.webp"
+
 },
   {
     "name": "Dry candy (ice cream strawberry)",
     "quantity": 12,
-    "price": 3.5
+    "price": 3.5,
+    "img": "star-candies-freeze-dried-ice-cream-strawberry.webp"
+
   },
   {
   "name": "Dubai (Chocolate)",
   "quantity": 10,
-  "price": 20
+  "price": 20,
+    "img": "the-original-dubai-chocolate-with-pistachio.webp"
+
 },
   {
     "name": "Warhead (Popping candy)",
     "quantity": 13,
-    "price": 1.5
+    "price": 1.5,
+    "img": "warheads-halloween-sour-popping-candy-3-fruity-flavors.webp"
+
   }
 ]

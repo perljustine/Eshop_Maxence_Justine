@@ -6,6 +6,7 @@ import data from './assets/data.json'
 
 function App() {
 
+
     return (
     <>
         <Header />
@@ -19,4 +20,4 @@ function App() {
           </div>
     </>
     )}
-    export default App
+  export default App
