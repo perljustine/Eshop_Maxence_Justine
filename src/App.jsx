@@ -1,13 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import Card from './components/Card'
+import Header from './components/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     <Card></Card>
+     <Header></Header>
     </>
   )
 }
