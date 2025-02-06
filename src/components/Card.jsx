@@ -1,7 +1,8 @@
 import { useState } from 'react'
+import Kitkat from '../assets/images/kit-kat-pink-lemonade.webp'
 
 // eslint-disable-next-line react/prop-types
-function Card({name, quantity, price}) {
+function Card({name, quantity, price, img}) {
 
 
     return (
@@ -11,7 +12,7 @@ function Card({name, quantity, price}) {
                 <a className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl"
                    href="#">
                     <img className="object-cover"
-                         src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                         src={`../assets/${img}`}
                          alt="product image"/>
                     <span
                         className="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">epuisé</span>
