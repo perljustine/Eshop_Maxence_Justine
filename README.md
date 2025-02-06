@@ -22,6 +22,7 @@
 - Initialisation du projet (**React, Tailwind, Git**)
 - Actions sur le panier (**ajouter, supprimer, augmenter/diminuer quantité**)
 - Vider le panier après validation
+- Gestion du design de l'eshop
 
 ---
 
