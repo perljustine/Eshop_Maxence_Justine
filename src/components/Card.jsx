@@ -13,10 +13,8 @@ function Card({name, quantity, price, img}) {
     return (
         <>
             <div className={`relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md ${stock === 0 ? 'opacity-50' : ''}`}>
-                <div className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl">
-                    <img className="object-cover"
-                         src={`/images/${img}`}
-                         alt="product image"/>
+                <div className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl justify-center">
+                    <img className="object-cover" src={`/images/${img}`} alt="product image"/>
                     {stock === 0 && (
                         <span className="absolute top-0 left-0 m-2 rounded-full bg-red-500 px-2 text-center text-sm font-medium text-white">Épuisé</span>
                     )}
@@ -53,7 +51,7 @@ function Card({name, quantity, price, img}) {
                             <span className={`mr-2 ml-3 rounded px-2.5 py-0.5 text-xs font-semibold ${stock === 0 ? 'bg-gray-500 text-white' : 'bg-yellow-200 text-black'}`}>{stock > 0 ? `Stock : ${stock}` : 'Rupture'}</span>
                         </div>
                     </div>
-                    <button onClick={handleStock}  disabled={stock === 0} className={`flex w-full items-center justify-center rounded-md px-5 py-2.5 text-center text-sm font-medium text-white ${stock === 0 ? 'bg-gray-500 cursor-not-allowed' : 'bg-slate-900 hover:bg-gray-700'}`}>
+                    <button onClick={handleStock}  disabled={stock === 0} className={`flex w-full items-center justify-center rounded-md px-5 py-2.5 text-center text-sm font-medium text-white ${stock === 0 ? 'bg-red-500 cursor-not-allowed' : 'bg-slate-900 hover:bg-[#DF7BAA]'}`}>
                         <svg xmlns="http://www.w3.org/2000/svg" className="mr-2 h-6 w-6" fill="none"
                              viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                             <path strokeLinecap="round" strokeLinejoin="round"
