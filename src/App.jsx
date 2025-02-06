@@ -8,6 +8,7 @@ function App() {
 
     return (
     <>
+        <Header />
 
           <div className="flex justify-center items-center w-full flex-wrap flex-row xl:grid xl:grid-cols-3 xl:justify-items-center">
               {
