@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Kitkat from '../../public/images/kit-kat-pink-lemonade.webp'
 
 // eslint-disable-next-line react/prop-types
 function Card({name, quantity, price, img}) {
