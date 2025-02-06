@@ -1,9 +1,13 @@
 import React from 'react';
+import Nav from './Nav';
 
 const Header = () => {
   return (
-    <div className="bg-[url('/src/assets/images/bg2.jpg')] bg-cover bg-center bg-no-repeat w-full h-[400px] md:h-[600px] lg:h-[700px] py-6 md:py-16">
-      <div className="flex flex-col justify-start items-center h-full w-full px-2 md:px-0 pt-12 md:pt-24">
+    <div className="relative bg-[url('/src/assets/images/bg2.jpg')] bg-cover bg-center bg-no-repeat w-full h-[400px] md:h-[600px] lg:h-[700px]">
+      <div className="absolute top-0 left-0 right-0">
+        <Nav />
+      </div>
+      <div className="flex flex-col justify-start items-center h-full w-full px-2 md:px-0 pt-32 md:pt-40">
         <div className="flex items-center justify-center rounded-full outline-dashed outline-white px-3 md:px-4 py-1 md:py-[6px] mb-4 md:mb-6">
           <div className="w-4 md:w-5 h-4 md:h-5 rounded-full text-zinc-400 mr-1 md:mr-2">
             <svg 
