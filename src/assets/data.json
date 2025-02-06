@@ -62,12 +62,14 @@
   {
     "name": "Kinderini",
     "quantity": 7,
-    "price": 4.5
+    "price": 4.5,
+    "img": "./kinder-kinderini.webp"
   },
   {
     "name": "KitKat (pink limonade)",
     "quantity": 3,
-    "price": 2
+    "price": 2,
+    "img": "./images/kit-kat-pink-lemonade.webp"
   },
   {
     "name": "Koll-Aid",
