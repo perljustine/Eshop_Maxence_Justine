@@ -3,7 +3,7 @@ import Nav from './Nav';
 
 const Header = () => {
   return (
-    <div className="relative bg-[url('/src/assets/images/bg2.jpg')] bg-cover bg-center bg-no-repeat w-full h-[400px] md:h-[600px] lg:h-[700px]">
+    <div className="relative bg-[url('/images/bg2.jpg')] bg-cover bg-center bg-no-repeat w-full h-[400px] md:h-[600px] lg:h-[700px]">
       <div className="absolute top-0 left-0 right-0">
         <Nav />
       </div>
