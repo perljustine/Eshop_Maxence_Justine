@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Bitecone",
+    "quantity": 25,
+    "price": 5.50
+  },
+  {
+    "name": "Brain Blasterz",
+    "quantity": 10,
+    "price": 4.50
+  },
+  {
+    "name": "Crazy Dips",
+    "quantity": 8,
+    "price": 3.50
+  },
+  {
+    "name": "Popping Candy (Apple)",
+    "quantity": 8,
+    "price": 3.50
+  },
+  {
+    "name": "Popping Candy (Blue Rasperry)",
+    "quantity": 8,
+    "price": 3.50
+  },
+  {
+    "name": "Gummy Body Parts",
+    "quantity": 4,
+    "price": 6.50
+  },
+  {
+    "name": "Hermione Granger Wind",
+    "quantity": 3,
+    "price": 15.50
+  },
+  {
+    "name": "Jelly Belly ( Cotton Candy )",
+    "quantity": 15,
+    "price": 3.50
+  },
+  {
+    "name": "Milk Chocolate Popcorn",
+    "quantity": 20,
+    "price": 6
+  },
+  {
+    "name": "Juicy Drop Gummies",
+    "quantity": 10,
+    "price": 5.50
+  },
+  {
+    "name": "Juicy Drop Gummies Xtrem",
+    "quantity": 4,
+    "price": 7
+  },
+  {
+    "name": "Pop Tarfts",
+    "quantity": 50,
+    "price": 1.5
+  },
+  {
+    "name": "Kinderini",
+    "quantity": 7,
+    "price": 4.5
+  },
+  {
+    "name": "KitKat (pink limonade)",
+    "quantity": 3,
+    "price": 2
+  },
+  {
+    "name": "Koll-Aid",
+    "quantity": 50,
+    "price": 0.5
+  },
+  {
+    "name": "Nikkoh",
+    "quantity": 23,
+    "price": 4.5
+  },
+  {
+    "name": "Orihiro Konjac Jelly Peach",
+    "quantity": 5,
+    "price": 7.5
+  },
+  {
+    "name": "Pop Rocks (Dips) ",
+    "quantity": 16,
+    "price": 4.5
+  },
+  {
+    "name": "Pop Rocks (Blue Rizz)",
+    "quantity": 17,
+    "price": 2.5
+  },
+  {
+    "name": "Toxic Waste Atomic Candy",
+    "quantity": 34,
+    "price": 2.5
+  },
+  {
+    "name": "Warheads super (sour double drop)",
+    "quantity": 17,
+    "price": 2.5
+  },
+  {
+    "name": "Warheads super (sour gel)",
+    "quantity": 25,
+    "price": 3.5
+  },
+  {
+    "name": "Warheads (Lil Worms)",
+    "quantity": 12,
+    "price": 3
+  },
+  {
+    "name": "wonka nerds candy (grape strawberry)",
+    "quantity": 23,
+    "price": 3.5
+  },
+  {
+    "name": "wonka nerds candy (rainbow)",
+    "quantity": 23,
+    "price": 3.5
+  },
+  {
+    "name": "American Bakery (Peanuts Cones)",
+    "quantity": 34,
+    "price": 4.5
+  },
+  {
+    "name": "Dr.Fire dip (Dick 2 Lick)",
+    "quantity": 34,
+    "price": 4.5
+  },
+  {
+    "name": "Dr.Sour (Lemonade)",
+    "quantity": 21,
+    "price": 2.5
+  },
+  {
+  "name": "Kool-Aid (Mandarina-Tabgerine)",
+  "quantity": 21,
+  "price": 2.5
+},
+  {
+  "name": "MilkyWay (cookie dog)",
+  "quantity": 24,
+  "price": 1.5
+},
+  {
+    "name": "Dry candy (ice cream strawberry)",
+    "quantity": 12,
+    "price": 3.5
+  },
+  {
+  "name": "Dubai (Chocolate)",
+  "quantity": 10,
+  "price": 20
+},
+  {
+    "name": "Warhead (Popping candy)",
+    "quantity": 13,
+    "price": 1.5
+  }
+]
