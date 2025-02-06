@@ -2,104 +2,131 @@
   {
     "name": "Bitecone",
     "quantity": 25,
-    "price": 5.50
+    "price": 5.50,
+    "img": "bitecone-dark-chocolate.webp"
   },
   {
     "name": "Brain Blasterz",
     "quantity": 10,
-    "price": 4.50
+    "price": 4.50,
+    "img": "brain-blaster-original-sour-tube.webp"
   },
   {
     "name": "Crazy Dips",
     "quantity": 8,
-    "price": 3.50
+    "price": 3.50,
+    "img": "chupa-chups-popping-candy-lollipop-strawberry.webp"
+
   },
   {
     "name": "Popping Candy (Apple)",
     "quantity": 8,
-    "price": 3.50
+    "price": 3.50,
+    "img": "dr-sour-popping-candy-apple.webp"
   },
   {
     "name": "Popping Candy (Blue Rasperry)",
     "quantity": 8,
-    "price": 3.50
+    "price": 3.50,
+    "img": "dr-sour-popping-candy-blue-raspberry.webp"
+
   },
   {
     "name": "Gummy Body Parts",
     "quantity": 4,
-    "price": 6.50
+    "price": 6.50,
+    "img": "funlab-gummy-body-parts.webp"
   },
   {
     "name": "Hermione Granger Wind",
     "quantity": 3,
-    "price": 15.50
+    "price": 15.50,
+    "img": "harry-potter-hermione-granger-wand-milk-chocolate.webp"
   },
   {
     "name": "Jelly Belly ( Cotton Candy )",
     "quantity": 15,
-    "price": 3.50
+    "price": 3.50,
+    "img": "jelly-belly-beans-cotton-candy.webp"
+
   },
   {
     "name": "Milk Chocolate Popcorn",
     "quantity": 20,
-    "price": 6
+    "price": 6,
+    "img": "jimmy-s-milk-chocolate-pop-corn.webp"
   },
   {
     "name": "Juicy Drop Gummies",
     "quantity": 10,
-    "price": 5.50
+    "price": 5.50,
+    "img": "juicy-drop-gummies-sour-gel.webp"
   },
   {
     "name": "Juicy Drop Gummies Xtrem",
     "quantity": 4,
-    "price": 7
+    "price": 7,
+    "img": "juicy-drop-gummies-xtreme-sour-gel.webp"
   },
   {
     "name": "Pop Tarfts",
     "quantity": 50,
-    "price": 1.5
+    "price": 1.5,
+    "img": "kellogg-s-pop-tarts-frosted-blueberry-big.webp"
+
   },
   {
     "name": "Kinderini",
     "quantity": 7,
     "price": 4.5,
-    "img": "./kinder-kinderini.webp"
+    "img": "kinder-kinderini.webp"
   },
   {
     "name": "KitKat (pink limonade)",
     "quantity": 3,
     "price": 2,
-    "img": "./images/kit-kat-pink-lemonade.webp"
+    "img": "kit-kat-pink-lemonade.webp"
   },
   {
-    "name": "Koll-Aid",
+    "name": "Kool-Aid ( tropical )",
     "quantity": 50,
-    "price": 0.5
+    "price": 0.5,
+    "img": "kool-aid-tropical-punch-6-units.webp"
   },
   {
     "name": "Nikkoh",
     "quantity": 23,
-    "price": 4.5
+    "price": 4.5,
+    "img": "nikkoh-jelly-sticks.webp"
+
   },
   {
     "name": "Orihiro Konjac Jelly Peach",
     "quantity": 5,
-    "price": 7.5
+    "price": 7.5,
+    "img": "orihiro-konjac-jelly-peach.webp"
+
   },
   {
     "name": "Pop Rocks (Dips) ",
     "quantity": 16,
-    "price": 4.5
+    "price": 4.5,
+    "img": "pop-rocks-dips-popping-candy-with-lollipop-cola.webp"
+
   },
   {
     "name": "Pop Rocks (Blue Rizz)",
     "quantity": 17,
-    "price": 2.5
+    "price": 2.5,
+    "img": "pop-rocks-popping-candy-blue-raspberry.webp"
+
   },
   {
     "name": "Toxic Waste Atomic Candy",
     "quantity": 34,
-    "price": 2.5
+    "price": 2.5,
+    "img": "toxic-waste-atomz-candy.webp"
+
   },
   {
     "name": "Warheads super (sour double drop)",
