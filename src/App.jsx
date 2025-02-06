@@ -6,6 +6,7 @@ import Header from './components/Header'
 
 function App() {
 
+<<<<<<< HEAD
   return (
       <>
               <Header />
@@ -19,6 +20,11 @@ function App() {
           </>
           )
           }
+=======
+    return (
+    <>
+        <Header></Header>
+>>>>>>> d1d80e0 (ajout des photos dans les cartes)
 
           export default App
  
