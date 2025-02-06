@@ -3,7 +3,6 @@ import { useState } from 'react'
 // eslint-disable-next-line react/prop-types
 function Card({name, quantity, price, img}) {
     const [stock, setStock] = useState(quantity)
-
     const handleStock = ()=>{
         if (stock > 0){
             setStock(stock-1)

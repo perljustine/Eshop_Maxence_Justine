@@ -1,15 +1,16 @@
 import { useState } from 'react'
 import './App.css'
+import Header from './components/Header'
 import Card from './components/Card'
 import data from './assets/data.json'
-import Header from './components/Header'
 
 function App() {
 
 
-  return (
-      <>
-          <Header />
+    return (
+    <>
+        <Header />
+
           <div className="flex justify-center items-center w-full flex-wrap flex-row xl:grid xl:grid-cols-3 xl:justify-items-center">
               {
                   data.map((item) => (
@@ -17,9 +18,6 @@ function App() {
                   ))
               }
           </div>
-      </>
-
-)}
-export default App
-
- 
+    </>
+    )}
+  export default App
