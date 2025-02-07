@@ -65,7 +65,7 @@ function App() {
       <>
           <Header />
           <h1 className="text-center font-chewy text-neutral-600  tracking-wider underline decoration-double mt-20 text-4xl mb-20">Nos Produits qui pourraient vous plaire..</h1>
-          <div className="flex justify-center items-center w-full flex-wrap flex-row xl:grid xl:grid-cols-3 xl:justify-items-center">
+          <div className="flex justify-center items-center w-ful grid gap-4 flex-wrap flex-row xl:grid xl:grid-cols-3 xl:justify-items-center">
               {
                   // ici je sur le dossier json
                   products.map((item) => (
