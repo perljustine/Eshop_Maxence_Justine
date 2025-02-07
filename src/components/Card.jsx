@@ -7,6 +7,9 @@ function Card({ prod, addToCart }) {
         // la fonction se lance que si les stocks sont supp à 0
         if (stock > 0) {
             addToCart(prod);
+        }
+    };
+
     return (
         <>
             <div className={`relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md ${stock === 0 ? "opacity-50" : ""}`}>

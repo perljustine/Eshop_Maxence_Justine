@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header'
 import Card from './components/Card'
 import data from './assets/data.json'
+import Wallet from './components/Wallet'
 
 function App() {
     // state pour l'ajout au panier
@@ -72,7 +73,6 @@ function App() {
                   ))
               }
           </div>
-          {/* bouton du panier */}
           <div className="fixed bottom-6 right-6 flex flex-col items-end">
               <button className="bg-slate-900 p-6 w-20 h-20 rounded-full shadow-lg flex items-center relative text-3xl" onClick={() => setOpen(!open)}>
                   🛒
@@ -104,6 +104,7 @@ function App() {
                           <p>Total des articles : {totalProd}</p>
                           <p className="font-bold text-lg">Total à payer : {totalGen}€</p>
                       </div>
+                      <Wallet cart={cart} totalGen={totalGen} setCart={setCart} /> 
                   </div>
               )}
           </div>
