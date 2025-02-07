@@ -25,7 +25,7 @@ function Card({ prod, addToCart }) {
                     <h5 className="text-xl tracking-tight text-slate-800 text-semibold font-chewy">{prod.name}</h5>
                     <div className="mt-2 mb-5 flex items-center justify-between">
                         <p className="text-xl font-bold text-neutral-600">{prod.price}€</p>
-                            <span className={`mr-2 ml-3 bg-pink-500 rounded px-2.5 py-0.5 text-xs font-semibold ${stock === 0 ? "bg-gray-500 text-white" : "bg-yellow-200 text-black"}`}>
+                            <span className={`mr-2 ml-3 bg-neutral-200 rounded px-2.5 py-0.5 text-xs font-semibold ${stock === 0 ? "bg-red-500 text-black" : "bg-pink-100 text-black"}`}>
                                 {stock > 0 ? `Stock : ${stock}` : "Rupture"}
                             </span>
                     </div>

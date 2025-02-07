@@ -65,7 +65,7 @@ const Wallet = ({ cart, totalGen, setCart }) => {
                         <div className="pt-2 border-t">
                             <div className="flex justify-between items-center">
                                 <span className="font-semibold italic">Remaining Balance:</span>
-                                <span className={`font-bold ${remainingBalance < 0 ? 'text-red-300' : 'text-purple-300'}`}> 
+                                <span className={`font-bold ${remainingBalance < 0 ? 'text-red-300' : 'text-pink-500'}`}> 
                                 {/* On affiche le texte en rouge si le solde est inférieur à 0, sinon en vert  */}
                                     {remainingBalance}€
                                 </span>

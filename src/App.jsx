@@ -64,7 +64,7 @@ function App() {
   return (
       <>
           <Header />
-          <h1 className="text-center font-chewy  tracking-wider underline decoration-double md:mt-30 text-xl md:text-4xl md:mb-20 mb-10 mt-10">Nos Produits qui pourraient vous faire craquer..</h1>
+          <h1 className="text-center font-chewy  tracking-wider underline decoration-double  md:mt-30 text-xl md:text-4xl md:mb-20 mb-10 mt-10">Nos Produits qui pourraient vous faire craquer..</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-y-20 justify-items-center w-ful xl:px-20 md:px-5">
             {               // ici je sur le dossier json
                   products.map((item) => (
@@ -99,13 +99,13 @@ function App() {
                           <button className="text-red-500 font-bold" onClick={() => setOpen(false)}>✖</button>
                       </div>
                       {cart.length === 0 ? (
-                          <p className="text-gray-500">Votre panier est vide</p>
+                          <p className="text-neutral-400 italic text-sm mt-2">Votre panier est vide.</p>
                       ) : (
                           cart.map((item) => (
                               <div key={item.name} className="flex justify-between items-center border-b-1 border-neutral-300 border-dashed  p-2">
                                   <img src={`/images/${item.img}`} alt={item.name} className="w-12 h-12 mr-4 rounded-md" />
                                   <p className="flex-1 text-neutral-500  text-xs mx-2  ">{item.name}</p>
-                                  <p className="text-neutral-600 text-s font-chewy">{item.quantity} x {item.price}€</p>
+                                  <p className="text-neutral-600 text-md font-chewy">{item.quantity} x {item.price}€</p>
                                   <button onClick={() => removeFromCart(item)} className="ml-4 bg-red-200 text-white text-sm px-2 py-1 rounded-full hover:bg-pink-400">➖</button>
                               </div>
                           ))

@@ -3,7 +3,7 @@ import logo from '../assets/candy-shop-svgrepo-com.svg';
 
 const Nav = () => {
   return (
-    <nav className="w-full bg-pink-100 shadow-md shadow-pink-50 h-16">
+    <nav className="w-full bg-pink-100 shadow-lg shadow-pink-200 h-14">
       <div className="container mx-auto flex items-center justify-between px-4 h-full">
         
         {/* Logo */}
