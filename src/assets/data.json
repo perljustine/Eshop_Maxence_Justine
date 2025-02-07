@@ -69,7 +69,7 @@
     "img": "juicy-drop-gummies-xtreme-sour-gel.webp"
   },
   {
-    "name": "Pop Tarfts",
+    "name": "Pop Tarts",
     "quantity": 50,
     "price": 1.5,
     "img": "kellogg-s-pop-tarts-frosted-blueberry-big.webp"
@@ -82,7 +82,7 @@
     "img": "kinder-kinderini.webp"
   },
   {
-    "name": "KitKat (pink limonade)",
+    "name": "KitKat (Pink Limonade)",
     "quantity": 3,
     "price": 2,
     "img": "kit-kat-pink-lemonade.webp"
@@ -148,14 +148,14 @@
 
   },
   {
-    "name": "wonka nerds candy (grape strawberry)",
+    "name": "Wonka Nerds Candy (grape strawberry)",
     "quantity": 23,
     "price": 3.5,
     "img": "wonka-nerds-candy-grape-strawberry-box.webp"
 
   },
   {
-    "name": "wonka nerds candy (rainbow)",
+    "name": "Wonka Nerds Candy (rainbow)",
     "quantity": 23,
     "price": 3.5,
     "img": "wonka-nerds-candy-rainbow-box.webp"
