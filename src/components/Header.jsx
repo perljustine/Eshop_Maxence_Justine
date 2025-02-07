@@ -3,14 +3,14 @@ import Nav from './Nav';
 
 const Header = () => {
   return (
-    <div className="relative bg-[url('/images/bg2.jpg')] bg-cover bg-center bg-no-repeat w-full h-[300px] md:h-[400px] lg:h-[500px]">
+    <div className="relative bg-[url('/images/bg2.jpg')] bg-cover bg-center bg-no-repeat w-full sm:h-[350px] md:h-[400px] lg:h-[500px]">
       <div className="absolute top-0 left-0 right-0">
         <Nav />
       </div>
       <div className="flex flex-col justify-start items-center h-full w-full px-2 md:px-0 pt-32 md:pt-40">
 
         <div className="relative text-center mt-3 md:mt-5 mb-8 md:mb-12">
-          <h1 className="relative text-white pb-3 text-3xl md:text-5xl italic leading-tight md:leading-[65px] z-10 font-chewy px-4 md:px-0">
+          <h1 className="relative text-white pb-3 md:text-3xl text-2xl md:text-5xl italic leading-tight md:leading-[65px] z-10 font-chewy px-4 md:px-0">
             Les meilleurs Bonbons
             <br />
             Venant tout droit des 4 coins du monde !

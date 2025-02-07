@@ -64,8 +64,8 @@ function App() {
   return (
       <>
           <Header />
-          <h1 className="text-center font-chewy  tracking-wider underline decoration-double mt-30  text-4xl mb-20">Nos Produits qui pourraient vous faire craquer..</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-0.5 gap-y-20 justify-items-center w-ful px-20">
+          <h1 className="text-center font-chewy  tracking-wider underline decoration-double md:mt-30 text-xl md:text-4xl md:mb-20 mb-10 mt-10">Nos Produits qui pourraient vous faire craquer..</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-y-20 justify-items-center w-ful xl:px-20 md:px-5">
             {               // ici je sur le dossier json
                   products.map((item) => (
                       // gestion des props pour le components card
@@ -95,23 +95,23 @@ function App() {
               {open && (
                   <div className="mt-3 w-80 bg-pink-50 shadow-lg p-8 rounded-2xl h-90 overflow-y-auto">
                       <div className="flex justify-between items-center">
-                          <h2 className="text-xl flex text-center text-pink-500 font-chewy font-bold">SugarRush Cart</h2>
+                          <h2 className="text-xl flex text-pink-500 font-chewy font-bold">SugarRush Cart</h2>
                           <button className="text-red-500 font-bold" onClick={() => setOpen(false)}>✖</button>
                       </div>
                       {cart.length === 0 ? (
                           <p className="text-gray-500">Votre panier est vide</p>
                       ) : (
                           cart.map((item) => (
-                              <div key={item.name} className="flex justify-between items-center border-b p-2">
+                              <div key={item.name} className="flex justify-between items-center border-b-1 border-neutral-300 border-dashed  p-2">
                                   <img src={`/images/${item.img}`} alt={item.name} className="w-12 h-12 mr-4 rounded-md" />
-                                  <p className="flex-1 text-neutral-400  sm:text-s  ">{item.name}</p>
-                                  <p className="text-neutral-600 font-chewy">{item.quantity} x {item.price}€</p>
-                                  <button onClick={() => removeFromCart(item)} className="ml-4 bg-red-200 text-white px-2 py-1 rounded-full hover:bg-pink-400">➖</button>
+                                  <p className="flex-1 text-neutral-500  text-xs mx-2  ">{item.name}</p>
+                                  <p className="text-neutral-600 text-s font-chewy">{item.quantity} x {item.price}€</p>
+                                  <button onClick={() => removeFromCart(item)} className="ml-4 bg-red-200 text-white text-sm px-2 py-1 rounded-full hover:bg-pink-400">➖</button>
                               </div>
                           ))
                       )}
                       <div className="mt-4 text-neutral-500">
-                          <p>Total des articles : {totalProd}</p>
+                          <p className='italic text-sm'>Total des articles : {totalProd}</p>
                           <p className="font-bold text-lg  text-neutral-500">Total à payer : {totalGen}€</p>
                       </div>
                       <Wallet cart={cart} totalGen={totalGen} setCart={setCart} /> 

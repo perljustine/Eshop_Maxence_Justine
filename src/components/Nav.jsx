@@ -3,26 +3,30 @@ import logo from '../assets/candy-shop-svgrepo-com.svg';
 
 const Nav = () => {
   return (
-    <nav className="w-full bg-pink-100 shadow-md shadow-pink-50">
-      <div className="md:h-18 h-28 mx-auto px-8 md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
+    <nav className="w-full bg-pink-100 shadow-md shadow-pink-50 h-16">
+      <div className="container mx-auto flex items-center justify-between px-4 h-full">
         
-        {/* Logo à gauche */}
-        <div className="flex items-center order-1">
-          <img src={logo} alt="Logo" className="h-12 w-14  md:h-14" />
+        {/* Logo */}
+        <div className="flex items-center">
+          <img src={logo} alt="Logo" className="h-10 w-12" />
         </div>
 
         {/* Menu de navigation */}
-        <div className="text-neutral-500 order-3 underline decoration-simple w-full md:w-auto md:order-2">
-          <ul className="flex font-semibold justify-between">
-            <li className="md:px-4 md:py-2 hover:text-purple-300 hover:underline decoration-purple-300 hover:animate-bounce"><a href="#">Explore</a></li>
-            <li className="md:px-4 md:py-2 hover:text-purple-300 hover:underline decoration-purple-300 hover:animate-bounce"><a href="#">About</a></li>
-            <li className="md:px-4 md:py-2 hover:text-purple-300 hover:underline decoration-purple-300 hover:animate-bounce"><a href="#">Contact</a></li>
+        <div className="sm:w-auto w-full flex justify-center sm:justify-end">
+          <ul className="flex flex-row gap-6 font-semibold text-neutral-500">
+            <li className="hover:text-purple-300 hover:underline decoration-purple-300 hover:animate-bounce">
+              <a href="#">Explore</a>
+            </li>
+            <li className="hover:text-purple-300 hover:underline decoration-purple-300 hover:animate-bounce">
+              <a href="#">About</a>
+            </li>
+            <li className="hover:text-purple-300 hover:underline decoration-purple-300 hover:animate-bounce">
+              <a href="#">Contact</a>
+            </li>
           </ul>
         </div>
-       
 
       </div>
-      
     </nav>
   );
 };

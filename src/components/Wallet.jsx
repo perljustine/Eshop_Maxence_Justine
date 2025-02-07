@@ -40,7 +40,8 @@ const Wallet = ({ cart, totalGen, setCart }) => {
                                 min="0"
                                 className="w-full p-1 border rounded text-sm"
                                 placeholder="Enter amount (€)"
-                            />
+                            /> 
+                            {/* tableau d'element vide sans rien dans le panier  */}
                         </div>
                         <button
                             type="submit"
@@ -59,12 +60,12 @@ const Wallet = ({ cart, totalGen, setCart }) => {
                         </div>
                         <div className="flex justify-between items-center">
                             <span className="text-gray-600">Cart Total:</span>
-                            <span className="font-semibold italic text-red-400">-{totalGen}€</span>
+                            <span className="font-semibold italic text-neutral-500">-{totalGen}€</span>
                         </div>
                         <div className="pt-2 border-t">
                             <div className="flex justify-between items-center">
                                 <span className="font-semibold italic">Remaining Balance:</span>
-                                <span className={`font-bold ${remainingBalance < 0 ? 'text-red-300' : 'text-green-300'}`}> 
+                                <span className={`font-bold ${remainingBalance < 0 ? 'text-red-300' : 'text-purple-300'}`}> 
                                 {/* On affiche le texte en rouge si le solde est inférieur à 0, sinon en vert  */}
                                     {remainingBalance}€
                                 </span>
