@@ -7,3 +7,8 @@
     font-family: 'Chewy', cursive;
   }
 }
+@layer utilities {
+  .font-bungee-shade {
+    font-family: 'Bungee Shade', sans-serif;
+  }
+}

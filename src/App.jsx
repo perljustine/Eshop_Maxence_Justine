@@ -64,17 +64,16 @@ function App() {
   return (
       <>
           <Header />
-          <h1 className="text-center font-chewy text-neutral-600  tracking-wider underline decoration-double mt-20 text-4xl mb-20">Nos Produits qui pourraient vous plaire..</h1>
-          <div className="flex justify-center items-center w-ful grid gap-4 flex-wrap flex-row xl:grid xl:grid-cols-3 xl:justify-items-center">
-              {
-                  // ici je sur le dossier json
+          <h1 className="text-center font-chewy  tracking-wider underline decoration-double mt-30  text-4xl mb-20">Nos Produits qui pourraient vous faire craquer..</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-0.5 gap-y-20 justify-items-center w-ful px-20">
+            {               // ici je sur le dossier json
                   products.map((item) => (
                       // gestion des props pour le components card
                       <Card key={item.name} prod={item} addToCart={addToCart}></Card>
                   ))
               }
           </div>
-          <div className="fixed bottom-20 right-6 flex flex-col items-end">
+          <div className="fixed bottom-30 right-8 flex flex-col items-end">
               <button className="bg-pink-50 w-15 h-15 flex  items-center justify-center rounded-full shadow-lg  relative text-3xl active:animate-spin" onClick={() => setOpen(!open)}>
                 <svg 
                 xmlns="http://www.w3.org/2000/svg" 

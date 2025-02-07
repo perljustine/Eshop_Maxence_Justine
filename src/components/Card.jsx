@@ -12,7 +12,7 @@ function Card({ prod, addToCart }) {
 
     return (
         <>
-            <div className={`relative m-8 mt-4  flex w-full max-w-xs flex-col overflow-hidden rounded-xl  border-2 border-pink-100 bg-white shadow-lg shadow-pink-100 ${stock === 0 ? "opacity-50" : ""}`}>
+            <div className={`relative  mt-4  flex w-full max-w-xs flex-col overflow-hidden rounded-xl gap-2  border-2 border-pink-100 bg-white shadow-lg shadow-pink-100 ${stock === 0 ? "opacity-50" : ""}`}>
                 <div className="relative mx-3 mt-3 flex h-60 overflow-hidden justify-center">
                     <img className="object-cover" src={`/images/${prod.img}`} alt={prod.name} />
                     {stock === 0 && (
