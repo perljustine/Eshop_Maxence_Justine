@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
+import Header from './components/Header'
 import Card from './components/Card'
 import data from './assets/data.json'
-import Header from './components/Header'
 
 function App() {
     // state pour l'ajout au panier
@@ -112,5 +112,3 @@ function App() {
 }
 
 export default App
-
-
