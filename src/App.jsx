@@ -64,6 +64,7 @@ function App() {
   return (
       <>
           <Header />
+          <h1 className="text-center font-chewy text-neutral-600  tracking-wider underline decoration-double mt-20 text-4xl mb-20">Nos Produits qui pourraient vous plaire..</h1>
           <div className="flex justify-center items-center w-full flex-wrap flex-row xl:grid xl:grid-cols-3 xl:justify-items-center">
               {
                   // ici je sur le dossier json
@@ -74,18 +75,28 @@ function App() {
               }
           </div>
           <div className="fixed bottom-6 right-6 flex flex-col items-end">
-              <button className="bg-slate-900 p-6 w-20 h-20 rounded-full shadow-lg flex items-center relative text-3xl" onClick={() => setOpen(!open)}>
-                  🛒
+              <button className="bg-pink-50 w-15 h-15 flex  items-center justify-center rounded-full shadow-lg  relative text-3xl active:animate-spin" onClick={() => setOpen(!open)}>
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                height="26" 
+                width="26" 
+                viewBox="0 0 576 512"
+                className="w-4 md:w-auto h-4 md:h-auto"
+                >
+                <path fill="#B197FC" d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
+                </svg>
+          
                   {totalProd > 0 && (
                       // crée un petit rond de notification du nombre de produits
                       <span className="absolute -top-1 -right-1 text-xs bg-red-500 text-white py-0.5 rounded-full h-5 w-5 text-center">{totalProd}</span>
                   )}
               </button>
+              
               {/* section Panier  */}
               {open && (
-                  <div className="mt-3 w-80 bg-white shadow-lg p-5 rounded-lg h-80 overflow-y-auto">
+                  <div className="mt-3 w-80 bg-pink-50 shadow-lg p-8 rounded-2xl h-90 overflow-y-auto">
                       <div className="flex justify-between items-center">
-                          <h2 className="text-xl font-bold">Panier</h2>
+                          <h2 className="text-xl flex text-center text-pink-500 font-chewy font-bold">SugarRush Cart</h2>
                           <button className="text-red-500 font-bold" onClick={() => setOpen(false)}>✖</button>
                       </div>
                       {cart.length === 0 ? (
@@ -94,15 +105,15 @@ function App() {
                           cart.map((item) => (
                               <div key={item.name} className="flex justify-between items-center border-b p-2">
                                   <img src={`/images/${item.img}`} alt={item.name} className="w-12 h-12 mr-4 rounded-md" />
-                                  <p className="flex-1">{item.name}</p>
-                                  <p>{item.quantity} x {item.price}€</p>
-                                  <button onClick={() => removeFromCart(item)} className="ml-4 bg-red-500 text-white px-2 py-1 rounded">➖</button>
+                                  <p className="flex-1 text-neutral-400  sm:text-s  ">{item.name}</p>
+                                  <p className="text-neutral-600 font-chewy">{item.quantity} x {item.price}€</p>
+                                  <button onClick={() => removeFromCart(item)} className="ml-4 bg-red-200 text-white px-2 py-1 rounded-full hover:bg-pink-400">➖</button>
                               </div>
                           ))
                       )}
-                      <div className="mt-4">
+                      <div className="mt-4 text-neutral-500">
                           <p>Total des articles : {totalProd}</p>
-                          <p className="font-bold text-lg">Total à payer : {totalGen}€</p>
+                          <p className="font-bold text-lg  text-neutral-500">Total à payer : {totalGen}€</p>
                       </div>
                       <Wallet cart={cart} totalGen={totalGen} setCart={setCart} /> 
                   </div>

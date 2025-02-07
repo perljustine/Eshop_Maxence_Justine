@@ -27,7 +27,7 @@ const Wallet = ({ cart, totalGen, setCart }) => {
     };
 
     return (
-        <div className="mt-4 border-t pt-4">
+        <div className="mt-4 border-t text-neutral-500 pt-4">
             {showInitialInput ? (
                 <div className="p-2">
                     <h2 className="text-sm font-semibold mb-2">Initial Wallet Balance</h2>
@@ -44,7 +44,7 @@ const Wallet = ({ cart, totalGen, setCart }) => {
                         </div>
                         <button
                             type="submit"
-                            className="w-full bg-blue-600 text-white py-1 text-sm rounded hover:bg-blue-700"
+                            className="w-full bg-pink-300 text-white py-1 text-sm rounded-full hover:bg-pink-500"
                         >
                             Set Balance
                         </button>
@@ -54,17 +54,17 @@ const Wallet = ({ cart, totalGen, setCart }) => {
                 <div className="p-2">
                     <div className="space-y-2 text-sm">
                         <div className="flex justify-between items-center">
-                            <span className="text-gray-600">Initial Balance:</span>
+                            <span className="text-gray-600 font-semibold">Initial Balance:</span>
                             <span className="font-semibold">{walletBalance}€</span>
                         </div>
                         <div className="flex justify-between items-center">
                             <span className="text-gray-600">Cart Total:</span>
-                            <span className="font-semibold text-red-500">-{totalGen}€</span>
+                            <span className="font-semibold italic text-red-400">-{totalGen}€</span>
                         </div>
                         <div className="pt-2 border-t">
                             <div className="flex justify-between items-center">
-                                <span className="font-semibold">Remaining Balance:</span>
-                                <span className={`font-bold ${remainingBalance < 0 ? 'text-red-500' : 'text-green-500'}`}> 
+                                <span className="font-semibold italic">Remaining Balance:</span>
+                                <span className={`font-bold ${remainingBalance < 0 ? 'text-red-300' : 'text-green-300'}`}> 
                                 {/* On affiche le texte en rouge si le solde est inférieur à 0, sinon en vert  */}
                                     {remainingBalance}€
                                 </span>
@@ -77,7 +77,7 @@ const Wallet = ({ cart, totalGen, setCart }) => {
                             className={`w-full py-1 rounded text-sm text-white ${
                                 remainingBalance < 0 
                                     ? 'bg-gray-400 cursor-not-allowed' 
-                                    : 'bg-blue-600 hover:bg-blue-700'
+                                    : 'bg-pink-400 hover:bg-pink-500 rounded-full'
                             }`} // on desactive le bouton si le solde est inférieur à 0
                             disabled={remainingBalance < 0}
                         >
