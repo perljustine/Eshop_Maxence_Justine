@@ -74,7 +74,7 @@ function App() {
                   ))
               }
           </div>
-          <div className="fixed bottom-6 right-6 flex flex-col items-end">
+          <div className="fixed bottom-20 right-6 flex flex-col items-end">
               <button className="bg-pink-50 w-15 h-15 flex  items-center justify-center rounded-full shadow-lg  relative text-3xl active:animate-spin" onClick={() => setOpen(!open)}>
                 <svg 
                 xmlns="http://www.w3.org/2000/svg" 
