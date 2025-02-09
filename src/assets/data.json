@@ -3,218 +3,269 @@
     "name": "Bitecone",
     "quantity": 25,
     "price": 5.50,
-    "img": "bitecone-dark-chocolate.webp"
+    "img": "bitecone-dark-chocolate.webp",
+    "star": 4
   },
   {
     "name": "Brain Blasterz",
     "quantity": 10,
     "price": 4.50,
-    "img": "brain-blaster-original-sour-tube.webp"
+    "img": "brain-blaster-original-sour-tube.webp",
+    "star": 5
+
   },
   {
     "name": "Crazy Dips",
     "quantity": 8,
     "price": 3.50,
-    "img": "chupa-chups-popping-candy-lollipop-strawberry.webp"
+    "img": "chupa-chups-popping-candy-lollipop-strawberry.webp",
+    "star": 5
+
 
   },
   {
     "name": "Popping Candy (Apple)",
     "quantity": 8,
     "price": 3.50,
-    "img": "dr-sour-popping-candy-apple.webp"
+    "img": "dr-sour-popping-candy-apple.webp",
+    "star": 4
+
   },
   {
     "name": "Popping Candy (Blue Rasperry)",
     "quantity": 8,
     "price": 3.50,
-    "img": "dr-sour-popping-candy-blue-raspberry.webp"
+    "img": "dr-sour-popping-candy-blue-raspberry.webp",
+    "star": 4
+
 
   },
   {
     "name": "Gummy Body Parts",
     "quantity": 4,
     "price": 6.50,
-    "img": "funlab-gummy-body-parts.webp"
+    "img": "funlab-gummy-body-parts.webp",
+    "star": 4
   },
   {
     "name": "Hermione Granger Wind",
     "quantity": 3,
     "price": 15.50,
-    "img": "harry-potter-hermione-granger-wand-milk-chocolate.webp"
+    "img": "harry-potter-hermione-granger-wand-milk-chocolate.webp",
+    "star": 5
   },
   {
     "name": "Jelly Belly ( Cotton Candy )",
     "quantity": 15,
     "price": 3.50,
-    "img": "jelly-belly-beans-cotton-candy.webp"
-
+    "img": "jelly-belly-beans-cotton-candy.webp",
+    "star": 4
   },
   {
     "name": "Milk Chocolate Popcorn",
     "quantity": 20,
     "price": 6,
-    "img": "jimmy-s-milk-chocolate-pop-corn.webp"
+    "img": "jimmy-s-milk-chocolate-pop-corn.webp",
+    "star": 3
   },
   {
     "name": "Juicy Drop Gummies",
     "quantity": 10,
     "price": 5.50,
-    "img": "juicy-drop-gummies-sour-gel.webp"
+    "img": "juicy-drop-gummies-sour-gel.webp",
+    "star": 4
   },
   {
     "name": "Juicy Drop Gummies Xtrem",
     "quantity": 4,
     "price": 7,
-    "img": "juicy-drop-gummies-xtreme-sour-gel.webp"
+    "img": "juicy-drop-gummies-xtreme-sour-gel.webp",
+    "star": 5
   },
   {
     "name": "Pop Tarts",
     "quantity": 50,
     "price": 1.5,
-    "img": "kellogg-s-pop-tarts-frosted-blueberry-big.webp"
+    "img": "kellogg-s-pop-tarts-frosted-blueberry-big.webp",
+    "star": 3
+
 
   },
   {
     "name": "Kinderini",
     "quantity": 7,
     "price": 4.5,
-    "img": "kinder-kinderini.webp"
+    "img": "kinder-kinderini.webp",
+    "star": 5
+
   },
   {
     "name": "KitKat (Pink Limonade)",
     "quantity": 3,
     "price": 2,
-    "img": "kit-kat-pink-lemonade.webp"
+    "img": "kit-kat-pink-lemonade.webp",
+    "star": 4
+
   },
   {
     "name": "Kool-Aid ( tropical )",
     "quantity": 50,
     "price": 0.5,
-    "img": "kool-aid-tropical-punch-6-units.webp"
+    "img": "kool-aid-tropical-punch-6-units.webp",
+    "star": 3
   },
   {
     "name": "Nikkoh",
     "quantity": 23,
     "price": 4.5,
-    "img": "nikkoh-jelly-sticks.webp"
+    "img": "nikkoh-jelly-sticks.webp",
+    "star": 5
+
 
   },
   {
     "name": "Orihiro Konjac Jelly Peach",
     "quantity": 5,
     "price": 7.5,
-    "img": "orihiro-konjac-jelly-peach.webp"
+    "img": "orihiro-konjac-jelly-peach.webp",
+    "star": 5
+
 
   },
   {
     "name": "Pop Rocks (Dips) ",
     "quantity": 16,
     "price": 4.5,
-    "img": "pop-rocks-dips-popping-candy-with-lollipop-cola.webp"
+    "img": "pop-rocks-dips-popping-candy-with-lollipop-cola.webp",
+    "star": 4
+
 
   },
   {
     "name": "Pop Rocks (Blue Rizz)",
     "quantity": 17,
     "price": 2.5,
-    "img": "pop-rocks-popping-candy-blue-raspberry.webp"
+    "img": "pop-rocks-popping-candy-blue-raspberry.webp",
+    "star": 5
+
 
   },
   {
     "name": "Toxic Waste Atomic Candy",
     "quantity": 34,
     "price": 2.5,
-    "img": "toxic-waste-atomz-candy.webp"
+    "img": "toxic-waste-atomz-candy.webp",
+    "star": 5
+
 
   },
   {
     "name": "Warheads super (sour double drop)",
     "quantity": 17,
     "price": 2.5,
-    "img": "warheads-super-sour-double-drop.webp"
+    "img": "warheads-super-sour-double-drop.webp",
+    "star": 4
   },
   {
     "name": "Warheads super (sour gel)",
     "quantity": 25,
     "price": 3.5,
-    "img": "warheads-super-sour-gel.webp"
+    "img": "warheads-super-sour-gel.webp",
+    "star": 5
+
   },
   {
     "name": "Warheads (Lil Worms)",
     "quantity": 12,
     "price": 3,
-    "img": "warheards-lil-worms.webp"
+    "img": "warheards-lil-worms.webp",
+    "star": 5
+
 
   },
   {
     "name": "Wonka Nerds Candy (grape strawberry)",
     "quantity": 23,
     "price": 3.5,
-    "img": "wonka-nerds-candy-grape-strawberry-box.webp"
+    "img": "wonka-nerds-candy-grape-strawberry-box.webp",
+    "star": 4
 
   },
   {
     "name": "Wonka Nerds Candy (rainbow)",
     "quantity": 23,
     "price": 3.5,
-    "img": "wonka-nerds-candy-rainbow-box.webp"
+    "img": "wonka-nerds-candy-rainbow-box.webp",
+    "star": 5
+
 
   },
   {
     "name": "American Bakery (Peanuts Cones)",
     "quantity": 34,
     "price": 4.5,
-    "img": "american-bakery-cones-peanut.webp"
-
+    "img": "american-bakery-cones-peanut.webp",
+    "star": 3
   },
   {
     "name": "Dr.Fire dip (Dick 2 Lick)",
     "quantity": 34,
     "price": 4.5,
-    "img": "dr-fire-dip-2-lick.webp"
+    "img": "dr-fire-dip-2-lick.webp",
+    "star": 5
 
   },
   {
     "name": "Dr.Sour (Lemonade)",
     "quantity": 21,
     "price": 2.5,
-    "img": "dr-sour-dip-n-shake.webp"
+    "img": "dr-sour-dip-n-shake.webp",
+    "star": 4
 
   },
   {
   "name": "Kool-Aid (Mandarina-Tabgerine)",
   "quantity": 21,
   "price": 2.5,
-    "img": "kool-aid-mandarina-tangerine-6-units.webp"
+  "img": "kool-aid-mandarina-tangerine-6-units.webp",
+  "star": 5
+
 
 },
   {
   "name": "MilkyWay (cookie dog)",
   "quantity": 24,
   "price": 1.5,
-    "img": "milky-way-cookie-dough.webp"
+  "img": "milky-way-cookie-dough.webp",
+  "star": 5
+
 
 },
   {
     "name": "Dry candy (ice cream strawberry)",
     "quantity": 12,
     "price": 3.5,
-    "img": "star-candies-freeze-dried-ice-cream-strawberry.webp"
+    "img": "star-candies-freeze-dried-ice-cream-strawberry.webp",
+    "star": 5
+
 
   },
   {
   "name": "Dubai (Chocolate)",
   "quantity": 10,
   "price": 20,
-    "img": "the-original-dubai-chocolate-with-pistachio.webp"
+  "img": "the-original-dubai-chocolate-with-pistachio.webp",
+  "star": 5
+
 
 },
   {
     "name": "Warhead (Popping candy)",
     "quantity": 13,
     "price": 1.5,
-    "img": "warheads-halloween-sour-popping-candy-3-fruity-flavors.webp"
+    "img": "warheads-halloween-sour-popping-candy-3-fruity-flavors.webp",
+    "star": 4
+
 
   }
 ]

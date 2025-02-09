@@ -69,7 +69,7 @@ function App() {
             {               // ici je sur le dossier json
                   products.map((item) => (
                       // gestion des props pour le components card
-                      <Card key={item.name} prod={item} addToCart={addToCart}></Card>
+                      <Card key={item.name} prod={item} quantity={item.quantity} price={item.price} img={item.img} name={item.name} star={item.star} addToCart={addToCart}></Card>
                   ))
               }
           </div>
